@@ -51,7 +51,7 @@ buttons.forEach((button) => {
       firtValue = Number(display.textContent);
       operatorSign = button.value;
       waitForSecondValue = true;
-      isDecimalNumber = false;
+      isDecimalNumber = false; // ça donner la main une autre fois pour mettre la virgule
     } else if (button.classList.contains("egal")) {
       let curentValue = Number(display.textContent);
       console.log(firtValue, operatorSign, curentValue);
